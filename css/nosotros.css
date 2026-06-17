@@ -1,10 +1,10 @@
+body{
+    background-color: #e7f7ff;
+}
 .contenedor{
     grid-template-rows: auto 70vh 50vh auto;
-    border: 1px solid red;
 }
 .contenedor section{
-    border: 1px solid green;
-    background-color: aquamarine;
     height: 100%;
     box-sizing: border-box;
 }
@@ -12,9 +12,6 @@
     grid-area: 1/5/2/9;
     text-align: center;
 }
-/* .titulo_bloque1{
-
-} */
 .titulo_bloque1 h1{
     font-family: "SourceSansPro";
     font-size: 60px;
@@ -35,15 +32,60 @@
 .bloque3{
     grid-area: 2/8/3/13;
 }
+.bloque3 h2{
+    font-family: "SourceSansPro";
+    font-size: 45px;
+    font-weight: 600;
+    color: #1c6e72;
+    padding-right: 120px;
+    margin: 0;
+}
+.bloque3 p{
+    font-family: "SourceSansPro";
+    font-size: 25px;
+    line-height: 1.5;
+}
 .bloque4{
     grid-area: 3/1/4/5;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #1a5f7a;
 }
 .bloque5{
     grid-area: 3/5/4/9;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #1a5f7a;
 }
 .bloque6{
     grid-area: 3/9/4/13;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #1a5f7a;
+}
+.titulo_bloque{
+    background-color: #1a5f7a;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.titulo_bloque h3{
+    font-family: "SourceSansPro";
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+.parrafo_bloque{
+    font-family: "SourceSansPro";
+    font-size: 23px;
+    line-height: 1.5;
+    padding: 0 20px;
 }
 .bloque7{
     grid-area: 4/5/5/9;
+    text-align: center;
 }

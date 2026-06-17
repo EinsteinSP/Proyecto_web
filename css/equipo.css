@@ -1,0 +1,108 @@
+body{
+    background-color: #e7f7ff;
+}
+.contenedor{
+    grid-template-rows: auto 60vh 60vh auto;
+    height: auto;
+}
+.contenedor section{
+    box-sizing: border-box;
+}
+.bloque1{
+    grid-area: 1/4/2/10;
+    text-align: center;
+}
+.bloque1 h1{
+    font-family: "SourceSansPro";
+    font-size: 60px;
+    font-weight: 700;
+    color: #1a5f7a;
+    margin: 0;
+}
+.bloque2{
+    grid-area: 2/1/3/7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.imagen1_bloque{
+    background-image: url(../img/equipo/imagen1.jpg);
+    background-size: cover;
+    background-position: 0px -30px;
+    height: 75%;
+    border-radius: 20px;
+    margin: 10px 15px 0;
+}
+.bloque3{
+    grid-area: 2/7/3/13;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.imagen2_bloque{
+    background-image: url(../img/equipo/imagen2.jpg);
+    background-size: cover;
+    background-position: 0px -10px;
+    height: 75%;
+    border-radius: 20px;
+    margin: 10px 15px 0;
+}
+.bloque4{
+    grid-area: 3/1/4/7;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.imagen3_bloque{
+    background-image: url(../img/equipo/imagen3.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 75%;
+    border-radius: 20px;
+    margin: 10px 15px 0;
+}
+.bloque5{
+    grid-area: 3/7/4/13;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.imagen4_bloque{
+    background-image: url(../img/equipo/imagen4.jpg);
+    background-size: cover;
+    background-position: 0px -40px;
+    height: 75%;
+    border-radius: 20px;
+    margin: 10px 15px 0;
+}
+.texto_imagen{
+    margin-left: 20px;
+}
+.texto_imagen p{
+    font-family: "Oswald";
+    font-size: 30px;
+}
+.texto_bloque{
+    text-align: center;
+}
+.texto_bloque p{
+    font-family: "SourceSansPro";
+    font-size: 23px;
+    padding: 0 10px;
+}
+.bloque6{
+    grid-area: 4/5/5/9;
+    text-align: center;
+}
