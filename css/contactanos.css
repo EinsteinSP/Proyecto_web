@@ -1,11 +1,12 @@
+body{
+    background-color: #e7f7ff;
+}
 .contenedor{
-    grid-template-rows: auto 60vh auto 30vh 30vh;
+    grid-template-rows: auto 60vh auto 15vh 45vh;
     height: auto;
-    border: 1px solid red;
 }
 .contenedor section{
-    background-color: aquamarine;
-    border: 1px solid green;
+    box-sizing: border-box;
 }
 .bloque1{
     grid-area: 1/5/2/9;
@@ -15,27 +16,140 @@
     font-size: 60px;
     font-weight: 700;
     color: #1a5f7a;
+    text-align: center;
     margin: 0;
 }
 .bloque2{
     grid-area: 2/1/3/9;
+    background-color: #f0f2f5;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.datos_bloque{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
 }
 .letras_bloque2{
     text-align: center;
+}
+.letras_bloque2 p{
+    font-family: "SourceSansPro";
+    font-size: 25px;
+}
+input{
+    height: 25px;
+    width: 500px;
     border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.mensaje_adicional{
+    height: 60px;
+}
+select{
+    height: 25px;
+    width: 520px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.boton_enviar{
+    text-align: center;
+    margin-top: 20px;
 }
 .bloque3{
     grid-area: 2/9/3/13;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f0f2f5;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.bloque3 h3{
+    text-align: center;
+    font-family: "SourceSansPro";
+    font-size: 25px;
+    margin: 0;
+}
+.contacto1{
+    display: flex;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.contacto2{
+    display: flex;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.contacto3{
+    display: flex;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.icono_contacto{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.texto_contacto p{
+    font-family: "Oswald";
+    letter-spacing: 1.5px;
 }
 .bloque4{
-    grid-area: 3/5/4/9
+    grid-area: 3/3/4/11;
+}
+.bloque4 h2{
+    text-align: center;
+    font-family: "SourceSansPro";
+    font-size: 40px;
+    font-weight: 600;
+    color: #1c6e72;
+}
+.bloque4 span{
+    font-weight: 700;
 }
 .bloque5{
     grid-area: 4/1/5/8;
+    padding-right: 75px;
+}
+.bloque5 p{
+    font-family: "SourceSansPro";
+    font-size: 25px;
+    margin: 0 0 20px 0;
 }
 .bloque6{
     grid-area: 5/1/6/8;
 }
+.bloque6 p{
+    text-align: center;
+    font-family: "SourceSansPro";
+    font-weight: 600;
+    color: #1a5f7a;
+    height: 10%;
+    margin: 0;
+}
+.bloque6 iframe{
+    width: 100%;
+    height: 90%;
+}
 .bloque7{
     grid-area: 4/8/6/13;
+}
+.bloque7 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
 }

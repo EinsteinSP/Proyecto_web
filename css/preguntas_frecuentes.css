@@ -1,0 +1,97 @@
+body{
+    background-color: #e7f7ff;
+}
+.contenedor{
+    grid-template-rows: auto 300px 300px 300px;
+}
+.contenedor section{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: "SourceSansPro";
+    font-size: 60px;
+    font-weight: 700;
+    color: #1a5f7a;
+    margin: 0;
+}
+h3{
+    font-family:"SourceSansPro" ;
+    font-size: 30px;
+    font-weight: 600;
+    color: #1c6e72;
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+p{
+    font-family:"SourceSansPro" ;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.bloque1{
+    grid-area: 1/3/2/11;
+}
+.bloque2{
+    grid-area: 2/2/3/11;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.bloque3{
+    grid-area: 2/10/3/13;
+    display: flex;
+    align-items: center;
+}
+.bloque4{
+    grid-area: 3/3/4/12;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.bloque5{
+    grid-area: 3/1/4/4;
+    display: flex;
+    align-items: center;
+}
+.bloque6{
+    grid-area: 4/2/5/11;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.bloque7{
+    grid-area: 4/10/5/13;
+    display: flex;
+    align-items: center;
+}
+.contenido_txt{
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+
+
+
+
