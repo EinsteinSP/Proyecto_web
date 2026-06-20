@@ -1,0 +1,73 @@
+body{
+    background-color: #e7f7ff;
+}
+.contenedor{
+    grid-template-rows: auto 310px 310px auto;
+}
+.contenedor section{
+    box-sizing: border-box;
+}
+.bloque1{
+    grid-area: 1/3/2/11;
+    text-align: center;
+    font-family: "SourceSansPro";
+}
+.bloque1 h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #1a5f7a;
+    margin: 0;
+}
+.bloque1 p{
+    font-size: 30px;
+}
+.bloque2{
+    grid-area: 2/1/3/6;
+    font-family: "SourceSansPro";
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.bloque3{
+    grid-area: 3/1/4/6;
+    font-family: "SourceSansPro";
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.bloque4{
+    grid-area: 2/6/4/13;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.bloque4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 20px;
+}
+.bloque5{
+    grid-area: 4/5/5/9;
+    text-align: center;
+}
+.pregunta{
+    height: 90%;
+    width: 90%;
+}
+.pregunta h2{
+    color: #1c6e72;
+    font-size: 40px;
+    margin: 0;
+}
+.pregunta li{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.boton{
+    margin: 0;
+}

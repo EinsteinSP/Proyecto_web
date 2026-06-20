@@ -89,3 +89,6 @@ body{
     grid-area: 4/5/5/9;
     text-align: center;
 }
+.boton{
+    margin: 0;
+}
