@@ -25,8 +25,8 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     background-color: white;
-    border: 1px solid gray;
     border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 .imagen1_bloque{
     background-image: url(../img/equipo/imagen1.jpg);
@@ -34,7 +34,8 @@ body{
     background-position: 0px -30px;
     height: 75%;
     border-radius: 20px;
-    margin: 10px 15px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    margin: 15px 20px 0;
 }
 .bloque3{
     grid-area: 2/7/3/13;
@@ -42,7 +43,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     background-color: white;
-    border: 1px solid gray;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
 }
 .imagen2_bloque{
@@ -51,7 +52,8 @@ body{
     background-position: 0px -10px;
     height: 75%;
     border-radius: 20px;
-    margin: 10px 15px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    margin: 15px 20px 0;
 }
 .bloque4{
     grid-area: 3/1/4/7;
@@ -59,7 +61,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     background-color: white;
-    border: 1px solid gray;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
 }
 .imagen3_bloque{
@@ -68,7 +70,8 @@ body{
     background-position: top;
     height: 75%;
     border-radius: 20px;
-    margin: 10px 15px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    margin: 15px 20px 0;
 }
 .bloque5{
     grid-area: 3/7/4/13;
@@ -76,7 +79,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     background-color: white;
-    border: 1px solid gray;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 20px;
 }
 .imagen4_bloque{
@@ -85,7 +88,8 @@ body{
     background-position: 0px -40px;
     height: 75%;
     border-radius: 20px;
-    margin: 10px 15px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    margin: 15px 20px 0;
 }
 .texto_imagen{
     margin-left: 20px;
@@ -93,14 +97,17 @@ body{
 .texto_imagen p{
     font-family: "Oswald";
     font-size: 30px;
+    color: rgb(98, 98, 98);
 }
 .texto_bloque{
     text-align: center;
 }
 .texto_bloque p{
     font-family: "SourceSansPro";
-    font-size: 23px;
-    padding: 0 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #1c6e72;
+    padding: 0 50px;
 }
 .bloque6{
     grid-area: 4/5/5/9;

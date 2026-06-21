@@ -108,6 +108,11 @@ body{
     font-size: 18px;
     text-decoration: none;
     color: #1a5f7a;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.boton_detalles a:hover{
+    color: #1f96c5;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
 }
 #precio{
     color:#45c8d7;

@@ -42,33 +42,35 @@ body{
 }
 .bloque3 p{
     font-family: "SourceSansPro";
-    font-size: 25px;
-    line-height: 1.5;
+    font-size: 24px;
+    line-height: 1.7;
+    color: #4a5568;
 }
 .bloque4{
     grid-area: 3/1/4/5;
     text-align: center;
     background-color: white;
     border-radius: 20px;
-    border: 1px solid #1a5f7a;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 .bloque5{
     grid-area: 3/5/4/9;
     text-align: center;
     background-color: white;
     border-radius: 20px;
-    border: 1px solid #1a5f7a;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 .bloque6{
     grid-area: 3/9/4/13;
     text-align: center;
     background-color: white;
     border-radius: 20px;
-    border: 1px solid #1a5f7a;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 .titulo_bloque{
     background-color: #1a5f7a;
     border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -83,6 +85,7 @@ body{
     font-family: "SourceSansPro";
     font-size: 23px;
     line-height: 1.5;
+    color: #4a5568;
     padding: 0 20px;
 }
 .bloque7{
