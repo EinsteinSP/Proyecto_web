@@ -22,6 +22,7 @@ texto.innerHTML="Mantén tu sonrisa saludable con nuestro servicio de limpieza d
 precio.innerHTML="S/. 80";
 duracion.innerHTML="30 - 45 minutos";
 beneficios.innerHTML="Previene caries y enfermedades de las encías, elimina manchas superficiales y mejora la salud bucal.";
+informacion.href="limpieza_dental/index.html";
 break;
 
 case "blanqueamiento":
@@ -37,6 +38,7 @@ texto.innerHTML="Aclara el color de los dientes y mejora la apariencia de tu son
 precio.innerHTML="S/. 250";
 duracion.innerHTML="1 hora";
 beneficios.innerHTML="Sonrisa más brillante, eliminación de manchas y mayor confianza al sonreír.";
+informacion.href="blanqueamiento_dental/index.html";
 break;
 
 case "curaciones":
@@ -52,6 +54,7 @@ texto.innerHTML="Restauramos dientes afectados por caries o fracturas utilizando
 precio.innerHTML="S/. 100";
 duracion.innerHTML="40 - 60 minutos";
 beneficios.innerHTML="Recupera la funcionalidad del diente, mejora la estética y evita daños mayores.";
+informacion.href="curaciones_esteticas/index.html";
 break;
 
 case "endodoncia":
@@ -83,6 +86,7 @@ texto.innerHTML="Recupera la función y estética de tu sonrisa mediante coronas
 precio.innerHTML="Desde S/. 600";
 duracion.innerHTML="2 a 3 sesiones";
 beneficios.innerHTML="Reemplaza dientes perdidos, mejora la masticación y devuelve una sonrisa natural.";
+informacion.href="coronas_protesis/index.html";
 break;
 
 case "extracciones":
@@ -98,6 +102,7 @@ texto.innerHTML="Realizamos extracciones dentales de forma segura y profesional 
 precio.innerHTML="Desde S/. 120";
 duracion.innerHTML="30 - 60 minutos";
 beneficios.innerHTML="Elimina infecciones, alivia el dolor y previene complicaciones futuras.";
+informacion.href="extracciones/index.html";
 break;
 
 }

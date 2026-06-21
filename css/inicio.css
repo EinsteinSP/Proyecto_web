@@ -142,30 +142,41 @@ body{
     grid-template-areas:
     "imagen1 imagen2"
     "imagen3 imagen3";
-    gap: 25px;
+    gap: 10px;
     padding-bottom: 20px;
 }
 .imagen1_bloque4{
-     grid-area: imagen1;
-     box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
-     border-radius: 20px;
+    grid-area: imagen1;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
+    border-top-left-radius: 20px;
+}
+.imagen1_bloque4 img{
+    border-top-left-radius: 20px;
 }
 .imagen2_bloque4{
-     grid-area: imagen2;
-     box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
-     border-radius: 20px;
+    grid-area: imagen2;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
+    border-top-right-radius: 20px;
+}
+.imagen2_bloque4 img{
+    border-top-right-radius: 20px;
 }
 .imagen3_bloque4{
-     grid-area: imagen3;
-     box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
-     border-radius: 20px;
+    grid-area: imagen3;
+    height: 300px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+.imagen3_bloque4 img{
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
 }
 .bloque4 img{
     height: 100%;
     width: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     object-position: center;
-    border-radius: 20px;
 }
 .bloque5{
     grid-area: 2/1/3/13;
