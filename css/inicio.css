@@ -208,6 +208,10 @@ body{
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     padding-top: 10px;
+    transition:0.4s;
+}
+.tratamientos_bloque5 div:hover{
+    transform:translateY(-10px);
 }
 .tratamientos_bloque5 h3{
     font-family: "SourceSansPro";

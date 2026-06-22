@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- ====================================================================== -->
-    <header>
+    <header id="header">
         <div class="logo_header">
             <a href="index.html"><img src="img/inicio/logo.png" alt="logo de la clínica dental"/></a>
         </div>
@@ -113,7 +113,7 @@
                         Una boca sana y fresca en una sola sesión.</p>
                     </div>
                     <div>
-                        <img src="img/inicio/blancamiento_dental.png"/>
+                        <img src="img/inicio/blanqueamiento_dental.png"/>
                         <h3>Blanqueamiento dental</h3>
                         <p>Aclara el tono de tus dientes de forma segura. 
                         Elimina manchas y recupera el brillo natural de tu sonrisa rápidamente.</p>
@@ -132,6 +132,9 @@
                     </div>
             </section>
         </div>
+        <button class="boton_regreso" onclick="regresoHeader()">
+            ↑
+        </button>
     </main>
     <!-- ====================================================================== -->
     <footer>
@@ -171,12 +174,19 @@
                 <h3>Nuestras redes</h3>
             </div>
             <div class="item3_footer">
-                <img src="img/inicio/icono_facebook.png"/>
-                <img src="img/inicio/icono_instagram.png"/>
-                <img src="img/inicio/icono_x.png"/>
+                <a href="https://www.facebook.com/">
+                    <img src="img/inicio/icono_facebook.png"/>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="img/inicio/icono_instagram.png"/>
+                </a>
+                <a href="https://x.com/">
+                    <img src="img/inicio/icono_x.png"/>
+                </a>
             </div>
         </section>
     </footer>
     <!-- ====================================================================== -->
+     <script src="js/global.js"></script>
 </body>
 </html>

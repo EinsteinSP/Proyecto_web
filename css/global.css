@@ -26,6 +26,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+    position: relative;
 }
 header{
     height: 10vh;
@@ -127,7 +128,9 @@ nav a:hover{
     background:#176d88;
     color:white;
     text-decoration:none;
+    border: none;
     border-radius:30px;
+    box-shadow: 0 1px 15px rgba(11, 73, 84, 0.4);
     font-size:18px;
     transition:0.3s;
     cursor: pointer;
@@ -216,4 +219,34 @@ footer p{
     width: 60px;
     cursor: pointer;
 }
+.boton_regreso{
+    position: absolute;
+    right: 20px;
+    bottom: 250px;
+    z-index: 1000;
+    height: 60px;
+    width: 60px;
+    display: inline-flex;
+    background-color: #45c8d7;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 1px 15px rgba(69, 200, 215, 0.4);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-family: "SourceSansPro";
+    color: #1a5f7a;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 5px;
+}
+.boton_regreso:hover{
+    background-color: #31b3c2;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(49, 179, 194, 0.5);
+}
+
+
+
 
